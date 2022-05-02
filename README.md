@@ -30,10 +30,10 @@ public:
 int main() {
   StarWars *pcStarWars = new Yoda;
   
-  if (dynamic_cast<Yoda *> (pcStarWars) != nullptr) {
+  if (dynamic_cast&lt;Yoda *&gt; (pcStarWars) != nullptr) {
       cout << "I point to a Yoda object" << endl;
   }
-  else if (dynamic_cast<ObiWan *> (pcStarWars) != nullptr) {
+  else if (dynamic_cast&lt;ObiWan *&gt; (pcStarWars) != nullptr) {
       cout << "I point to an ObiWan object" << endl;
   }
   else {
