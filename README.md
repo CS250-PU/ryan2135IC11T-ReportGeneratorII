@@ -42,4 +42,20 @@ int main() {
 }
 </pre>
 
+Final output for the given data file is to be:
+
+<pre>
+Hourly Employee Report
+
+Name: Jill SSN: 123456789 Wage: 15 HoursWorked: 100 Pay: 1500
+
+Name: John SSN: 234567890 Wage: 17.5 HoursWorked: 135 Pay: 2362.5
+
+Name: Dee SSN: 456789012 Wage: 13.5 HoursWorked: 50 Pay: 675
+
+Hourly Employee Summary Statistics
+Total Hourly Pay: $4537.50
+Highest Hourly Pay: $2362.50
+Lowest Hourly Pay: $675.00
+</pre>
 Follow the UML diagram found in the lecture notes on Moodle.
